@@ -15,11 +15,11 @@ const Gameboard = (function () {
   };
 
   return { getBoard, setMark, reset };
-})();
+})(); /* ================= module=(function)() which called immediately, covered in (), return one object ================= */
 
 /* ================= PLAYER FACTORY ================= */
 function createPlayer(name, mark) {
-  return { name, mark };
+  return { name, mark }; //Factory fuction means returning object
 }
 
 /* ================= GAME CONTROLLER MODULE ================= */
